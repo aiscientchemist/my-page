@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korepetytor [Twoje Imię] - Strona Główna</title>
+    
+    <!-- Google Fonts - Nowoczesna czcionka -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome - Ikony -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+    <!-- Nasz plik CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- === NAGŁÓWEK I NAWIGACJA === -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Korepetytor.PRO</a>
+            <ul class="nav-links">
+                <li><a href="#o-mnie">O mnie</a></li>
+                <li><a href="#oferta">Oferta</a></li>
+                <li><a href="#opinie">Opinie</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- === SEKCJA GŁÓWNA (HERO) === -->
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <h1>Cześć, jestem [Twoje Imię i Nazwisko]</h1>
+                <p class="subtitle">Pomogę Ci zrozumieć matematykę i osiągnąć wymarzone wyniki!</p>
+                <a href="#kontakt" class="btn">Umów się na lekcję</a>
+            </div>
+        </section>
+
+        <!-- === SEKCJA O MNIE === -->
+        <section id="o-mnie" class="container section">
+            <h2 class="section-title">Kilka słów o mnie</h2>
+            <div class="about-content">
+                <img src="https://via.placeholder.com/250" alt="Zdjęcie korepetytora" class="about-photo">
+                <div class="about-text">
+                    <p>
+                        Jestem pasjonatem [przedmiotu, np. matematyki] z wieloletnim doświadczeniem w nauczaniu. Moim celem jest nie tylko przekazanie wiedzy, ale również pokazanie, że nauka może być ciekawa i satysfakcjonująca. 
+                    </p>
+                    <p>
+                        Ukończyłem [Twój kierunek studiów] na [Twoja uczelnia]. Wierzę w indywidualne podejście do każdego ucznia, ponieważ każdy z nas ma inny styl uczenia się. Razem znajdziemy najlepszą drogę do Twojego sukcesu!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- === SEKCJA OFERTA === -->
+        <section id="oferta" class="section section-highlight">
+            <div class="container">
+                <h2 class="section-title">Moja oferta</h2>
+                <div class="offer-grid">
+                    <div class="card">
+                        <i class="fas fa-school card-icon"></i>
+                        <h3>Szkoła Podstawowa</h3>
+                        <p>Przygotowanie do sprawdzianów, nadrabianie zaległości i pomoc w bieżącym materiale.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-graduation-cap card-icon"></i>
+                        <h3>Szkoła Średnia</h3>
+                        <p>Kompleksowe przygotowanie do matury na poziomie podstawowym i rozszerzonym.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-microscope card-icon"></i>
+                        <h3>Inne przedmioty</h3>
+                        <p>Udzielam również korepetycji z fizyki i chemii na poziomie podstawowym.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- === SEKCJA OPINIE === -->
+        <section id="opinie" class="container section">
+            <h2 class="section-title">Co mówią moi uczniowie?</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <blockquote>"Dzięki Panu [Twoje Imię] matura z matematyki okazała się banalnie prosta! Polecam każdemu."</blockquote>
+                    <cite>– Anna, maturzystka</cite>
+                </div>
+                <div class="testimonial">
+                    <blockquote>"Indywidualne podejście i ogromna cierpliwość. W końcu zrozumiałem funkcje!"</blockquote>
+                    <cite>– Piotr, uczeń 1 klasy liceum</cite>
+                </div>
+                <div class="testimonial">
+                    <blockquote>"Najlepszy korepetytor, na jakiego trafiłam. Lekcje prowadzone w miłej atmosferze."</blockquote>
+                    <cite>– Katarzyna, studentka</cite>
+                </div>
+            </div>
+        </section>
+
+        <!-- === SEKCJA KONTAKT (TUTAJ JEST ZMIANA!) === -->
+        <section id="kontakt" class="section section-highlight">
+            <div class="container">
+                <h2 class="section-title">Skontaktuj się ze mną</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Masz pytania? Chcesz umówić termin?</h3>
+                        <p>Napisz lub zadzwoń. Chętnie odpowiem na wszystkie Twoje pytania i znajdziemy dogodny termin na pierwszą lekcję.</p>
+                        <p><i class="fas fa-phone"></i> <strong>Telefon:</strong> <a href="tel:+48512345542">+48 512 345 542</a></p>
+                        <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:carmenskowyra421@gmail.com">carmenskowyra421@gmail.com</a></p>
+                    </div>
+                    
+                    <!-- === ZAKTUALIZOWANY FORMULARZ === -->
+                    <form class="contact-form" action="https://formsubmit.co/carmenskowyra421@gmail.com" method="POST">
+                        <input type="text" name="name" placeholder="Twoje imię" required>
+                        <input type="email" name="email" placeholder="Twój email" required>
+                        <textarea name="message" rows="5" placeholder="Twoja wiadomość" required></textarea>
+                        
+                        <!-- To ukryte pole ustawi tytuł e-maila, który do Ciebie przyjdzie -->
+                        <input type="hidden" name="_subject" value="Nowa wiadomość ze strony korepetytora!">
+                        
+                        <button type="submit" class="btn">Wyślij wiadomość</button>
+                    </form>
+                    <!-- ===================================== -->
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- === STOPKA === -->
+    <footer>
+        <div class="container">
+            <div class="social-media">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>© 2023 [Twoje Imię i Nazwisko]. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <!-- Nasz plik JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
